@@ -40,5 +40,9 @@ Speed - set speed of transition, default is 100
 
 Zindex - set z-index for object used in transition, default is 0
 
-### Examples
+### Author
+
+Maciej Kawa
+kontakt @ maciejkawa.lubin.pl
+
 
