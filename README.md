@@ -43,6 +43,7 @@ Zindex - set z-index for object used in transition, default is 0
 ### Author
 
 Maciej Kawa
+
 kontakt @ maciejkawa.lubin.pl
 
 
