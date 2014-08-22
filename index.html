@@ -55,7 +55,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
-					<h3>Demo examples</h3>
+					<h3>Demo</h3>
 					<ul class="list-unstyled text-center">
 						<li><span class="glyphicon glyphicon-arrow-down"></span> <a id="tb" href=#>Top to bottom</a></li>
 						<li><span class="glyphicon glyphicon-arrow-right"></span> <a id="lr" href=#>Left to right</a></li>
@@ -75,6 +75,12 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<h3>	Attention</h3>
+					<p>If you want use plugin with divs, you must first set up position style of div (like absolute, relative, fixed)!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 					<h3>Parametrs</h3>
 					<ul class="list-unstyled text-center">
 						<li>Color - set new color in hex of background, default is "#00F"</li>
@@ -83,12 +89,45 @@
 						<li>Speed - set speed of transition, default is 100</li>
 						<li>Zindex - set z-index for object used in transition, default is 0</li>
 					</ul>
+					<h3>Example</h3><a href="http://jsfiddle.net/axb8bknh/">JSFiddle</a>
+				</div>
+			</div>
+			<div class="row ">
+<pre class="col-md-offset-2 col-sm-offset-2 col-md-8 col-sm-8 col-xs-12">&lt;script src="jquery.js"&gt;&lt;/ script&gt;
+&lt;script src="cascadelines.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  $("#mydiv").cascadelines({
+        color: '#00F',
+        direction: 'bt',
+        lines: 50,
+        speed: 220,
+        zindex: 0
+  });
+&lt;/script&gt;
+
+&lt;style&gt;
+  #mydiv {
+    background-color: #0F0;
+    position: relative;
+    height: 200px;
+    width: 300px;
+  }
+&lt;/style&gt;
+
+&lt;div id="mydiv"&gt;&lt;/div&gt;</pre>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<h3>Links</h3>
+					<a href="https://github.com/MK-PL/Cascade-Lines/archive/master.zip"><button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-compressed"></span> Download Zip</button></a>
+					<a href="https://github.com/MK-PL/Cascade-Lines"><button type="button" class="btn btn-default btn-lg"><span class=" glyphicon glyphicon-hand-right"></span> View on Github</button></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
-					<h3>Download</h3>
-					<p>Link</p>
+					<h3>	Author</h3>
+					<p>Maciej Kawa</p>
+					<p>kontakt @ maciejkawa.lubin.pl</p>
 				</div>
 			</div>
 		</div>
