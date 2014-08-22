@@ -25,7 +25,7 @@ Copy jQuery and Cascade Lines files to your folder.
 
 ~~~
 
-### Attention!
+### Notice!
 
 If you want use plugin with divs, you must first set up position style of div (like absolute, relative, fixed)!
 
