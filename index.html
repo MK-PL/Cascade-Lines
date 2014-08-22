@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Line Transition - jQuery Plugin</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="favicon.png" rel="shortcut icon" type="image/x-icon"/>
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="cascadelines.js"></script>
+		<script>
+			$(function(){
+				$("#tb").click(function() {
+					$("body").cascadelines({
+						color: '#000',
+						direction: 'tb',
+						lines:25
+					});
+				});
+				
+				$("#lr").click(function() {
+					$("body").cascadelines({
+						color: '#007',
+						direction: 'lr',
+						lines:15
+					});
+				});
+				
+				$("#rl").click(function() {
+					$("body").cascadelines({
+						color: '#070',
+						direction: 'rl',
+						speed: 220
+					});
+				});
+				
+				$("#bt").click(function() {
+					$("body").cascadelines({
+						color: '#700',
+						direction: 'bt',
+						speed: 220
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<h1>Cascade Lines</h1>
+					<p>jQuery Plugin for change background color with cascading lines transition.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<h3>Demo examples</h3>
+					<ul class="list-unstyled text-center">
+						<li><span class="glyphicon glyphicon-arrow-down"></span> <a id="tb" href=#>Top to bottom</a></li>
+						<li><span class="glyphicon glyphicon-arrow-right"></span> <a id="lr" href=#>Left to right</a></li>
+						<li><span class="glyphicon glyphicon-arrow-left"></span> <a id="rl" href=#>Right to left</a></li>
+						<li><span class="glyphicon glyphicon-arrow-up"></span> <a id="bt" href=#>Bottom to top</a></li>
+					</ul>
+					<h3>How to use?</h3>
+					<p>Copy jQuery and Cascade Lines files to your folder.</p>
+				</div>
+			</div>
+			<div class="row">
+<pre class="col-md-offset-2 col-sm-offset-2 col-md-8 col-sm-8 col-xs-12">&lt;script src="jquery.js"&gt;&lt;/ script&gt;
+&lt;script src="cascadelines.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+	$("body").cascadelines();
+&lt;/script&gt;</pre>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<h3>Parametrs</h3>
+					<ul class="list-unstyled text-center">
+						<li>Color - set new color in hex of background, default is "#00F"</li>
+						<li>Direction - set direction of transition ("lr", "rl", "tb", "bt"), default is "lr"</li>
+						<li>Lines - set numbers of lines used in transition, default is 10</li>
+						<li>Speed - set speed of transition, default is 100</li>
+						<li>Zindex - set z-index for object used in transition, default is 0</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+					<h3>Download</h3>
+					<p>Link</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
