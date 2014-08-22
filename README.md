@@ -31,9 +31,13 @@ If you want use plugin with divs, you must first set up position style of div (l
 ### Parametrs
 
 Color - set new color in hex of background, default is "#00F"
+
 Direction - set direction of transition ("lr", "rl", "tb", "bt"), default is "lr"
+
 Lines - set numbers of lines used in transition, default is 10
+
 Speed - set speed of transition, default is 100
+
 Zindex - set z-index for object used in transition, default is 0
 
 ### Examples
