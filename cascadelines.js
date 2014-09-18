@@ -14,7 +14,8 @@ licensed under the MIT
 			direction: 'lr',
 			lines: 10,
 			speed: 100,
-			zindex: "0"
+			zindex: "0",
+			callback: function() {}
 		};
 		options = $.extend(defaults, options);
 		var position = 0;
@@ -67,8 +68,14 @@ licensed under the MIT
 					for (var i=1; i<=+options.lines; i++) {
 						$("#cascadelines"+i).remove();
 					}
-					window.isdoing = false;
 				}, options.lines*options.speed+500);
+				
+			// Callback - Call function when done
+			setTimeout(function() 
+				{
+					window.isdoing = false;
+					options.callback();
+				}, options.lines*options.speed+600);
 		});
 	};
 })(jQuery);
