@@ -42,6 +42,8 @@ Speed - set speed of transition, default is 100
 
 Zindex - set z-index for object used in transition, default is 0
 
+Callback - call function when done
+
 ### Example [Link] (http://jsfiddle.net/axb8bknh/)
 ~~~ html
 
