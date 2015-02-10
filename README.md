@@ -1,6 +1,6 @@
 Cascade-Lines
 =============
-[Demo site] (http://maciejkawa.lubin.pl/cascadelines)
+[Demo site] (mk-pl.github.io/Cascade-Lines)
 ---
 
 "Cascade Lines" are  jQuery Plugin for change background color with cascading lines transition.
@@ -77,6 +77,6 @@ Callback - call function when done
 
 Maciej Kawa
 
-kontakt @ maciejkawa.lubin.pl
+kontakt [at] maciejkawa.lubin.pl
 
 
